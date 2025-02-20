@@ -1,0 +1,38 @@
+authenticate_user:
+  description: >
+    Initiate the OAuth flow using Instagram's official API or approved third-party tools.
+    Ensure that a valid access token and refresh token pair is generated.
+  expected_output: >
+    A valid access token and refresh token pair.
+  agent: insta_auth_agent
+
+refresh_token:
+  description: >
+    Automatically refresh the access token before expiry to maintain uninterrupted API access.
+  expected_output: >
+    A newly generated access token with updated expiry information.
+  agent: insta_auth_agent
+
+subscribe_to_hashtags:
+  description: >
+    Monitor predefined hashtags and subscribe to relevant Instagram accounts.
+    Leverage engagement data to adjust the subscription list dynamically.
+  expected_output: >
+    A list of newly subscribed users or hashtags confirmed by the Instagram API.
+  agent: insta_subscription_agent
+
+schedule_post:
+  description: >
+    Schedule posts at optimal times based on internal analytics and Instagram engagement trends.
+    Integrate with Instagram's API to confirm post scheduling.
+  expected_output: >
+    Confirmation of the scheduled post along with time details.
+  agent: insta_post_agent
+
+generate_caption:
+  description: >
+    Generate an AI-powered caption tailored to the post content and current trends.
+    Ensure the caption is engaging and adheres to Instagram's content guidelines.
+  expected_output: >
+    A compelling caption text that meets engagement criteria.
+  agent: insta_post_agent

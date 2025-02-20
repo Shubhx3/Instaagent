@@ -1,0 +1,20 @@
+# Instagram User Preferences
+
+## Content Preferences
+CONTENT_TOPICS: AI, machine learning, data science, tech trends, startup culture
+CONTENT_TONE: professional with occasional casual posts
+POST_FREQUENCY: 3 times per week (Monday, Wednesday, Friday)
+OPTIMAL_POST_TIMES: 9:00 AM, 12:00 PM, 5:00 PM
+
+## Engagement Strategy
+HASHTAG_COUNT: 5-7 per post
+ENGAGE_WITH_COMMENTS: Yes, within 2 hours of posting
+AUTO_FOLLOW_BACK: Yes, for non-bot accounts
+
+## Monitoring Preferences
+HASHTAGS_TO_MONITOR: #artificialintelligence, #machinelearning, #datascience, #techinnovation, #startuplife
+ACCOUNTS_TO_MONITOR: openai, anthropic, databricks, techcrunch, ycombinator
+
+## Content Restrictions
+AVOID_TOPICS: politics, controversial subjects, overly technical details
+AVOID_HASHTAGS: #controversial, #politics, #religion

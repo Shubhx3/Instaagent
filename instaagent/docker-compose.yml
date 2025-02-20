@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  instaagent:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./knowledge:/app/knowledge
+      - ./data:/app/data
+      - ./credentials:/app/credentials
+    env_file:
+      - .env
+    command: run
+    restart: unless-stopped
